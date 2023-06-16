@@ -1,0 +1,92 @@
+@import url(//db.onlinewebfonts.com/c/0a6ee448d1bd65c56f6cf256a7c6f20a?family=Bahnschrift);
+:root{
+    --bg:#100f3d;
+    --orange:#f57224;
+    --fore-color:#fff;
+}
+body{
+    font-family: 'Bahnschrift';
+    
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.bg,.bg:focus,.bg:hover{
+    background: var(--bg);
+    color: var(--fore-color) !important;
+}
+
+.bg a{
+    color: var(--fore-color) !important;
+    text-decoration: none;
+    
+   
+}
+p,h1,h2,h3,h4,h5,span,small{
+    cursor:context-menu;
+}
+.col > img {
+    width:12.5rem;
+    height:12.5rem;
+    align-self: center;
+}
+.text-justify{
+    text-align: justify;
+}
+.navbar-brand{
+font-weight: bold;
+text-align: center;
+}
+.buy-now , .buy-now:hover, .buy-now:focus{
+    background:var(--orange);
+    color: #fff;
+    outline: 0;
+    border:none;
+}
+
+.text-orange{
+    color:var(--orange);
+    
+}
+.con-shopping{
+    background: #fff;
+    color: var(--bg);
+    outline: 0;
+    border-radius: 0;
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    transition: all 0.3s ease-in-out;
+}
+.con-shopping:hover{
+    background: #d3d4d5;
+}
+.text-light-grey{
+    color: #585b5e;
+}
+
+.m-6{
+    margin-bottom: 3.8rem;
+}
+.login-signup:hover{
+    color:#100f3d !important;
+
+}
+.text-link{
+    color:var(--bg);
+    text-decoration: none;
+}
+.text-link:hover{
+    color:var(--orange);
+    text-decoration: none;
+}
+@media screen and (max-width:768px) {
+    
+   .productImage{
+    width: 15rem;
+    height: 15rem;
+   }
+   .w-md-100{
+         width: 100% !important;
+   }
+}
